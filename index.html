@@ -1,0 +1,52 @@
+<!--Dhvani Patel c0886416-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form id="registrationForm">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required>
+            <span class="error" id="firstNameError"></span>
+        </div>
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+            <span class="error" id="lastNameError"></span>
+        </div>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required>
+            <span class="error" id="dobError"></span>
+        </div>
+        <div>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <span class="error" id="genderError"></span>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <span class="error" id="passwordError"></span>
+        </div>
+        <div>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required>
+            <span class="error" id="confirmPasswordError"></span>
+        </div>
+        <div>
+            <button type="button" id="registerButton">Register</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
