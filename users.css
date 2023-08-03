@@ -6,17 +6,25 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #a19898;
   }
   
- /* h1 {
-    text-align: center;
-  } **/
-  
+  h1 {
+    display: inline;
+    font-size: 2em;
+    margin-block-end: 20.67em;
+    margin-inline-start: 10pc;
+    margin-inline-end: 270px;
+    font-weight: bold;
+}
+ 
   form {
-    width: 300px;
-    padding: 20px;
-    background-color: #ffffff;
+    margin-top: 4%;
+    margin-inline-start: -40%;
+    margin-inline-end: 180px;
+    width: 400px;
+    padding: 30px;
+    background-color: #caadad;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
@@ -35,7 +43,7 @@ body {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #6e6e6e;
     border-radius: 3px;
   }
   
