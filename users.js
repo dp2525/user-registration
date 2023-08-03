@@ -45,7 +45,6 @@ function displayError(inputElement, errorMessage) {
     const validationResult = validate(formData);
   
     if (validationResult.isValid) {
-      // Implement your form submission logic here
       alert('Registration successful!');
       form.reset();
     } else {
